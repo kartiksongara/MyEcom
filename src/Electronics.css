@@ -1,0 +1,53 @@
+.text{
+    text-decoration: none;
+    color: black;
+}
+.down{
+    /* margin-top: 10px; */
+    /* width: 100px; */
+    height: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.filter .filterin{
+    visibility: hidden;
+}
+.down:hover .filterin{
+    visibility: visible;
+}
+.search{
+    color: black;
+    opacity: 0.5;
+    width:20rem ;
+    
+}
+
+
+.productbox{
+    justify-content: center;
+}
+.filterbox{
+    margin-top: -40px;
+    position: fixed;
+    justify-content:"center";
+}
+.pcontent{
+    width: 24rem;
+}
+.productimg{
+    height: 19rem;
+    width: 100%;
+
+}
+@media(max-width:600px) and (min-width:300px){
+ .pcontent{
+    width: 15rem;
+ }
+ .search{
+    width: 10rem;
+ }
+ .filterbox{
+    /* margin-bottom: 60px; */
+ }
+    
+}

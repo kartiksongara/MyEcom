@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.singin{
+    height: 500px;
+    width: 100%;
+    
+
+}
+.profile{
+    
+    /* height: 630px; */
+    padding-top: 30px;
+    
+}
+@media(max-width:800px) and (min-width:250px){
+    .singin{
+        height: 800px;
+    }
+    
+}
